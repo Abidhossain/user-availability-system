@@ -35,11 +35,9 @@ and sets their availability based on weekdays, and buyers can view this availabi
     php artisan key:generate --env=testing
     ```
 
-6. Set up your database credentials in the `.env` file.
+6. Set up your database credentials in the `phpunit.xml` file.
 
-7. Set up your database credentials in the `phpunit.xml` file.
-
-8. Run the migrations:
+7. Run the test case:
     ```bash
     php artisan test
     ```
